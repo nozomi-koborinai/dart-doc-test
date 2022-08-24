@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
+  <meta name="generator" content="made with love by dartdoc 5.1.0-dev">
+  <meta name="description" content="repository_riverpod_mvvm API docs, for the Dart programming language.">
+  <title>repository_riverpod_mvvm - Dart API docs</title>
+
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
+  <link rel="stylesheet" href="static-assets/github.css?v1">
+  <link rel="stylesheet" href="static-assets/styles.css?v1">
+  <link rel="icon" href="static-assets/favicon.png?v1">
+
+  
+</head>
+
+
+<body data-base-href=""
+      data-using-base-href="false">
+
+<div id="overlay-under-drawer"></div>
+
+<header id="title">
+  <button id="sidenav-left-toggle" type="button">&nbsp;</button>
+  <ol class="breadcrumbs gt-separated dark hidden-xs">
+    <li class="self-crumb">repository_riverpod_mvvm package</li>
+  </ol>
+  <div class="self-name">repository_riverpod_mvvm</div>
+  <form class="search navbar-right" role="search">
+    <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+</header>
+
+<main>
+
+
+  <div id="dartdoc-main-content" class="main-content">
+      
+<section class="desc markdown">
+  <h1 id="repository_riverpod_mvvm">repository_riverpod_mvvm</h1>
+<p>AndreaさんのRepositoryパターンの記事を参考にしたRiverpodアーキテクチャ学習</p>
+<ul>
+<li><a href="https://flutter-square.com/joint-study-session/">Flutter大学_共同勉強会に登壇しました！</a></li>
+<li><a href="https://flutter-square.com/riverpod-di-layered-architecture/">RiverpodのDI機能を用いてレイヤードアーキテクチャを構築してみた</a></li>
+<li><a href="https://vimeo.com/734039186/48cb6c3d03">Flutter大学_発表動画</a></li>
+<li><a href="https://docs.google.com/presentation/d/1u_nfbLkCHpVsX3TOpPchE-BqwYbySVk14QcRqjNZ45I/edit#slide=id.g1276827f2e_0_5">Flutter大学_発表スライド</a></li>
+<li><a href="https://github.com/nzmgfdprs/repository_riverpod_mvvm/issues/1"><code>すさ</code>さんにコードレビューをしていただきました</a></li>
+</ul>
+<h2 id="architecture">Architecture</h2><img width="942" alt="スクリーンショット 2022-07-31 4 58 18" src="https://user-images.githubusercontent.com/39579511/181994414-38131228-7350-49ec-a276-9a31d9905ea1.png">
+<p>※今回はAndreaさんのRepositoryアーキテクチャをSimpleなものにしてレイヤードアーキテクチャを構築した。</p>
+<h2 id="">アプリ概要：超簡易掲示板</h2>
+<p><a href="https://riverpod-mvvm-93799.web.app">https://riverpod-mvvm-93799.web.app</a></p>
+<p><img width="300" alt="スクリーンショット 2022-06-29 23 06 45" src="https://user-images.githubusercontent.com/39579511/176461489-4b7554ed-362c-424c-b614-846a7a5895e4.png"> <img width="300" alt="スクリーンショット 2022-06-29 23 07 13" src="https://user-images.githubusercontent.com/39579511/176461520-d7d8a8ce-6bc6-490f-96b3-84156941fd9b.png"></p>
+<h2 id="-2">参考記事</h2>
+<ul>
+<li><a href="https://codewithandrea.com/articles/flutter-repository-pattern/">Flutter App Architecture: The Repository Pattern</a></li>
+</ul>
+<h2 id="20220711-">課題（2022/07/11 解決済）</h2>
+<ul>
+<li><del>RiverpodのDI機能の理解不足</del></li>
+<li><del>レイヤー間の依存関係の理解不足</del></li>
+<li><del>アプリケーション層の役割の理解不足</del></li>
+</ul>
+</section>
+
+
+      <section class="summary">
+          <h2>Libraries</h2>
+        <dl>
+          <dt id="common_app_bar">
+  <span class="name"><a href="presentation_layer_common_widgets_common_app_bar/presentation_layer_common_widgets_common_app_bar-library.html">common_app_bar</a></span> 
+
+</dt>
+<dd>
+</dd>
+
+          <dt id="convert_utils">
+  <span class="name"><a href="utils_convert_utils/utils_convert_utils-library.html">convert_utils</a></span> 
+
+</dt>
+<dd>
+</dd>
+
+          <dt id="domain_providers">
+  <span class="name"><a href="domain_layer_domain_providers/domain_layer_domain_providers-library.html">domain_providers</a></span> 
+
+</dt>
+<dd>
+</dd>
+
+          <dt id="generated_plugin_registrant">
+  <span class="name"><a href="generated_plugin_registrant/generated_plugin_registrant-library.html">generated_plugin_registrant</a></span> 
+
+</dt>
+<dd>
+</dd>
+
+          <dt id="i_post_repository">
+  <span class="name"><a href="domain_layer_interfaces_i_post_repository/domain_layer_interfaces_i_post_repository-library.html">i_post_repository</a></span> 
+
+</dt>
+<dd>
+</dd>
+
+          <dt id="infrastructure_providers">
+  <span class="name"><a href="infrastructure_layer_infrastructure_providers/infrastructure_layer_infrastructure_providers-library.html">infrastructure_providers</a></span> 
+
+</dt>
+<dd>
+</dd>
+
+          <dt id="main">
+  <span class="name"><a href="main/main-library.html">main</a></span> 
+
+</dt>
+<dd>
+</dd>
+
+          <dt id="post">
+  <span class="name"><a href="domain_layer_models_post/domain_layer_models_post-library.html">post</a></span> 
+
+</dt>
+<dd>
+</dd>
+
+          <dt id="post_document">
+  <span class="name"><a href="infrastructure_layer_dtos_post_document/infrastructure_layer_dtos_post_document-library.html">post_document</a></span> 
+
+</dt>
+<dd>
+</dd>
+
+          <dt id="post_page">
+  <span class="name"><a href="presentation_layer_views_post_page/presentation_layer_views_post_page-library.html">post_page</a></span> 
+
+</dt>
+<dd>
+</dd>
+
+          <dt id="post_page_view_model">
+  <span class="name"><a href="presentation_layer_view_models_post_page_view_model/presentation_layer_view_models_post_page_view_model-library.html">post_page_view_model</a></span> 
+
+</dt>
+<dd>
+</dd>
+
+          <dt id="post_repository">
+  <span class="name"><a href="infrastructure_layer_repositories_post_repository/infrastructure_layer_repositories_post_repository-library.html">post_repository</a></span> 
+
+</dt>
+<dd>
+</dd>
+
+          <dt id="posts_notifier">
+  <span class="name"><a href="domain_layer_models_posts_notifier/domain_layer_models_posts_notifier-library.html">posts_notifier</a></span> 
+
+</dt>
+<dd>
+</dd>
+
+          <dt id="presentation_providers">
+  <span class="name"><a href="presentation_layer_presentation_providers/presentation_layer_presentation_providers-library.html">presentation_providers</a></span> 
+
+</dt>
+<dd>
+</dd>
+
+          <dt id="time_line_page">
+  <span class="name"><a href="presentation_layer_views_time_line_page/presentation_layer_views_time_line_page-library.html">time_line_page</a></span> 
+
+</dt>
+<dd>
+</dd>
+
+          <dt id="time_line_page_view_model">
+  <span class="name"><a href="presentation_layer_view_models_time_line_page_view_model/presentation_layer_view_models_time_line_page_view_model-library.html">time_line_page_view_model</a></span> 
+
+</dt>
+<dd>
+</dd>
+
+        </dl>
+      </section>
+
+  </div> <!-- /.main-content -->
+
+  <div id="dartdoc-sidebar-left" class="sidebar sidebar-offcanvas-left">
+    <header id="header-search-sidebar" class="hidden-l">
+  <form class="search-sidebar" role="search">
+    <input type="text" id="search-sidebar" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+</header>
+
+<ol class="breadcrumbs gt-separated dark hidden-l" id="sidebar-nav">
+  <li class="self-crumb">repository_riverpod_mvvm package</li>
+</ol>
+
+
+    <h5 class="hidden-xs"><span class="package-name">repository_riverpod_mvvm</span> <span class="package-kind">package</span></h5>
+    <ol>
+      <li class="section-title">Libraries</li>
+      <li><a href="presentation_layer_common_widgets_common_app_bar/presentation_layer_common_widgets_common_app_bar-library.html">common_app_bar</a></li>
+      <li><a href="utils_convert_utils/utils_convert_utils-library.html">convert_utils</a></li>
+      <li><a href="domain_layer_domain_providers/domain_layer_domain_providers-library.html">domain_providers</a></li>
+      <li><a href="generated_plugin_registrant/generated_plugin_registrant-library.html">generated_plugin_registrant</a></li>
+      <li><a href="domain_layer_interfaces_i_post_repository/domain_layer_interfaces_i_post_repository-library.html">i_post_repository</a></li>
+      <li><a href="infrastructure_layer_infrastructure_providers/infrastructure_layer_infrastructure_providers-library.html">infrastructure_providers</a></li>
+      <li><a href="main/main-library.html">main</a></li>
+      <li><a href="domain_layer_models_post/domain_layer_models_post-library.html">post</a></li>
+      <li><a href="infrastructure_layer_dtos_post_document/infrastructure_layer_dtos_post_document-library.html">post_document</a></li>
+      <li><a href="presentation_layer_views_post_page/presentation_layer_views_post_page-library.html">post_page</a></li>
+      <li><a href="presentation_layer_view_models_post_page_view_model/presentation_layer_view_models_post_page_view_model-library.html">post_page_view_model</a></li>
+      <li><a href="infrastructure_layer_repositories_post_repository/infrastructure_layer_repositories_post_repository-library.html">post_repository</a></li>
+      <li><a href="domain_layer_models_posts_notifier/domain_layer_models_posts_notifier-library.html">posts_notifier</a></li>
+      <li><a href="presentation_layer_presentation_providers/presentation_layer_presentation_providers-library.html">presentation_providers</a></li>
+      <li><a href="presentation_layer_views_time_line_page/presentation_layer_views_time_line_page-library.html">time_line_page</a></li>
+      <li><a href="presentation_layer_view_models_time_line_page_view_model/presentation_layer_view_models_time_line_page_view_model-library.html">time_line_page_view_model</a></li>
+</ol>
+
+  </div>
+
+  <div id="dartdoc-sidebar-right" class="sidebar sidebar-offcanvas-right">
+  </div>
+
+</main>
+
+<footer>
+  <span class="no-break">
+    repository_riverpod_mvvm
+      1.0.0+1
+  </span>
+
+  
+</footer>
+
+
+
+<script src="static-assets/highlight.pack.js?v1"></script>
+<script src="static-assets/script.js?v1"></script>
+
+
+
+</body>
+
+</html>
+
